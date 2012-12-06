@@ -1,0 +1,24 @@
+
+Virtual world concept.
+You are looking for a way to get out.
+Travel in the world and come across pieces of code that you have to solve.
+The resistance movement that will get you gold for solving certain code.
+Gold will allow you to get certain items that simplify problem solving / decelerate the rate at which player param drops if the player answers incorrectly
+/ restore player params ( potions - like objects )  
+After solving first couple of problems you encounter enemies ( functions ( or local paradoxes )  ) that are unskippable
+and every incorrectly answered question in this case will lower your health parameter. Questions will have to be rather simple in this case. 
+An ability to talk to certain characters. 
+
+Player params:
+- Stamina - every incorrectly answered question will decrease stamina.
+- Intelligence - every correctly answered question will increase stamina. 
+- Health - self explanatory. 
+- 
+
+<<<<<<< HEAD
+test ##Meera##
+****Nadeen****
+=======
+
+ 
+>>>>>>> Rewritten from scrach.
