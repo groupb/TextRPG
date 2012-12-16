@@ -351,6 +351,35 @@ def wake_up_1_problem_2():
             print_b(' That is not correct. Be careful with walls. You don\'t want to move those.              ')
             deco()
 
+def wake_up_1_problem_3():
+    deco()
+    print_b('Entity:                                                              ')       
+    print_b(' There are three doors available, one will lead you to the next step, ')
+    print_b(' the two others will cause you to loose a life and take you back to the beginning:')
+    print_b( '1. A\n2. B\n3. C')
+    deco()
+    x = input(str(''))
+    if x == 'B'or 'b':
+        deco()
+        print_b('Entity:                                     ')
+        print_b(' That was a smart choice, now let us move on')
+        deco()
+        wake_up_1_end()        
+    elif x != 'B'or 'b':
+        deco()
+        print_b('Entity:                                                                           ')
+        print_b(' You lost a life, now you have to go back and make some smart choices this time...')
+        deco()
+        wake_up()
+    else:
+        deco()
+        print_b('incorrect')
+        deco()
+           
+## There is something not working here, I am not able to separate each choice...
+## when i\I write A the answer that is supposed to be for B shows..
+## Then instead of restarting the game it goes back to problem 2
+
     
             
 wake_up_intro()     
