@@ -33,8 +33,8 @@ def save_inventory_initial():
 
 def open_inventory():
     with open ('player_stats.txt','rb') as file:
-        player_inventory = pickle.loads(file.read())
         global player_inventory
+        player_inventory = pickle.loads(file.read())
         return player_inventory
 
 def save_inventory():
@@ -192,7 +192,7 @@ def wake_up_1_medicine():
     print_b(' 30 minutes later...                                                                    ')
     deco()
     print_b(' The headache is gone. You feel much better. You decide to find out what\'s going on and ')
-    print_b(' the only way way to find out what\'s going on is by getting on some rooftop. You use a  ')
+    print_b(' the only way to find out what\'s going on is by getting on some rooftop. You use a  ')
     print_b(' backdoor to exit the pharmacy. You enter a small yard and you see a [l]adder that leads')
     print_b(' to the top of the building opposite of you, as well as an entrance to what seems like  ')
     print_b(' an apartment [b]lock.                                                                  ')
@@ -250,7 +250,7 @@ def wake_up_1_robot_encounter():
     deco()
     print_b(' Entity:                                                                                ')
     print_b('         Welcome to the paradise. Man-made paradise. The perfect world full of numerous ')
-    print_b(' opportunities. Too bad that you are alone here and and have no idea what will happen if')
+    print_b(' opportunities. Too bad that you are alone here and have no idea what will happen if ')
     print_b(' you stay long enough... Let me help you.                                               ')
 
     weak = " Your attack is ineffective, I'd suggest learning a skill or aquiring a weapon.         "
@@ -340,7 +340,7 @@ def wake_up_1_problem_2():
         if x == '8 (1)':
             deco()
             print_b(' Entity:                                                                                ')
-            print_b(' Still a bit too dark here... But let\'s move on.                                        ')
+            print_b(' Still a bit too dark here... But let\'s move on.                                       ')
             print_b(' Now that you know the basic, I need you to return a favor. I need to obtain certain    ')
             print_b(' items that I am not programmed to find. It is rather complicated. I need you to find   ')
             print_b(' those for me. I will tell you the rest soon enough.                                    ') 
