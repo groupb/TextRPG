@@ -345,6 +345,7 @@ def wake_up_1_problem_2():
             print_b(' items that I am not programmed to find. It is rather complicated. I need you to find   ')
             print_b(' those for me. I will tell you the rest soon enough.                                    ') 
             deco()
+            wake_up_1_problem_3() 
         if x != '8 (1)':
             deco()
             print_b(' Entity:                                                                                ')
@@ -358,14 +359,14 @@ def wake_up_1_problem_3():
     print_b(' the two others will cause you to loose a life and take you back to the beginning:')
     print_b( '1. A\n2. B\n3. C')
     deco()
-    x = input(str(''))
-    if x == 'B'or 'b':
+    y = input(str(''))
+    if y == 'B'or 'b':
         deco()
         print_b('Entity:                                     ')
         print_b(' That was a smart choice, now let us move on')
         deco()
-        wake_up_1_end()        
-    elif x != 'B'or 'b':
+##        wake_up_1_problem_4()        
+    elif y != 'B'or 'b':
         deco()
         print_b('Entity:                                                                           ')
         print_b(' You lost a life, now you have to go back and make some smart choices this time...')
